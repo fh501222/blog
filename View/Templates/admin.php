@@ -17,8 +17,8 @@
 
 <a href="#" class="material-icons-outlined"><img src="./View/Img/crud/edit_note_black_24dp.svg">
 <hr>
- <textarea>
-    Welcome to TinyMCE!
+<div class="textarea" style="display: none;">
+ <textarea placeholder="Welcome to TinyMCE!">
   </textarea>
 <!-- <a href="#" class="material-icons-outlined"><img src="./View/Img/crud/send_black_24dp.svg"> -->
   <script>
@@ -28,3 +28,6 @@
       toolbar_mode: 'floating',
    });
   </script>
+  </div>
+
+  

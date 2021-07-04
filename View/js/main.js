@@ -28,4 +28,8 @@
   //         utilsScript: "../../build/js/utils.js" // just for formatting/placeholders etc
   //       });
 
+  $('.material-icons-outlined').click(function(){
+  	$(".textarea").toggle();
+  });
+
 })(jQuery);
